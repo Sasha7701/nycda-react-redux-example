@@ -1,0 +1,28 @@
+// CSS Reset
+@import "~reset-css/reset.css";
+
+// Bulma
+@import "~bulma/bulma.sass";
+
+// Box sizing
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	box-sizing: border-box;
+}
+
+// App
+.App {
+	max-width: 660px;
+	margin: 0 auto;
+	padding: 20px;
+
+	&-title {
+		display: block;
+		font-size: 32px;
+		font-weight: 300;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
